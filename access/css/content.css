@@ -1,0 +1,50 @@
+#content
+{
+  position: relative;
+  width: 100%;
+  min-height: 50vh;
+  box-sizing: border-box;
+}
+
+.title
+{
+  color: var(--title);
+  font-weight: 400;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 36px;
+}
+
+.content__content{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw;
+  text-align: center;
+  font-style: italic;
+}
+
+.content__content p
+{
+  font-weight: 400;
+  font-size: 17px;
+  margin: 16px 0;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.content__slider
+{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 500px;
+  transition: .5s;
+  overflow: hidden;
+}
+.content__slider img
+{
+  width: 500px;
+  padding: 10px;
+}

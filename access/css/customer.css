@@ -1,0 +1,60 @@
+#customer {
+  background: #ededed;
+  padding: 80px 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+#customer .title {
+  position: relative;
+  color: #2d1a47;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+.album
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0 100px;
+  overflow: hidden;
+}
+.photo {
+  position: absolute;
+  display: block;
+  color: #4f246b;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 16px;
+  padding: 10px 10px 0px 10px;
+  width: 170px;
+  background-color: white;
+  z-index: 2;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 30%);
+  box-sizing: unset;
+  cursor: pointer;
+  transition: .5s;
+}
+.photo:hover
+{
+  width: 180px;
+  z-index: 999;
+  border-color: #6A6A6A;
+  box-shadow: 1px 4px 20px -2px rgb(0 0 0 / 40%);
+  -webkit-transform: rotate(0deg) scale(1.2);
+  -moz-transform: rotate(0deg) scale(1.2);
+  transform: rotate(0deg) scale(1.2);
+}
+.photo p
+{
+  padding: 8px 0 15px 0;
+  text-align: justify;
+}
+
+.photo img
+{
+  width: 100%;
+}
